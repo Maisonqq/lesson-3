@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 66px;
+}
+
+.line {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: rgb(255, 139, 56);
+}
+
+.line_white {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: white;
+}
+
+.card {
+  width: 350px;
+  display: inline-block;
+}
+
+.m-rl-33 {
+  margin: 0 33px;
+}
+
+.color-gray {
+  color: rgb(134, 135, 139, 1);
+}
+
+.color-white {
+  color: white;
+}
+
+.logo {
+  background-image: url(./images/Logo.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  padding: 1%;
+}
+
+.table_inline {
+  display: inline;
+}
+
+.table_position {
+  float: right;
+  margin: 18px 22px 0;
+  display: inline;
+}
+
+.header__background {
+  background-color: black;
+  height: 67px;
+}
+
+.awesome {
+  text-align: center;
+  padding-top: 102px;
+  font-family: "Raleway", sans-serif;
+}
+
+.stylish {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.card__discription {
+  padding-top: 16px;
+}
+
+.card__image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  border: 2px solid rgb(255, 139, 56);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image_question {
+  background-image: url(./images/lamp.png);
+}
+
+.image_keyboard {
+  background-image: url(./images/keyboard.png);
+}
+
+.image_ligthning {
+  background-image: url(./images/lightning.png);
+}
+
+.image_architecture {
+  background-image: url(./images/architecture.png);
+  width: 1400px;
+  height: 297px;
+}
+
+.stylish_margin {
+  margin-top: 54px;
+}
+
+.stylish_text {
+  color: white;
+  padding-top: 54px;
+}
