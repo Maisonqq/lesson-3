@@ -42,17 +42,22 @@
   background-image: url(./images/Logo.png);
   background-repeat: no-repeat;
   margin-left: 10%;
-  padding: 1%;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  display: inline-block;
 }
 
 .table_inline {
-  display: inline;
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+  padding-top: 24px;
 }
 
 .table_position {
-  float: right;
-  margin: 18px 22px 0;
-  display: inline;
+  margin: 0 15px;
+  display: inline-block;
 }
 
 .header__background {
@@ -69,6 +74,7 @@
 .stylish {
   text-align: center;
   font-family: "Raleway", sans-serif;
+  margin-top: 111px;
 }
 
 .card__discription {
@@ -99,15 +105,56 @@
 
 .image_architecture {
   background-image: url(./images/architecture.png);
-  width: 1400px;
-  height: 297px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
 }
 
-.stylish_margin {
-  margin-top: 54px;
+.image_vk {
+  background-image: url(./images/vk.svg);
+}
+
+.image_facebook {
+  background-image: url(./images/facebook.svg);
+}
+
+.image_instagram {
+  background-image: url(./images/instagram.svg);
+}
+
+.logo__image {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  background-position: center;
+  display: inline-block;
+}
+
+.blackout {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(./images/architecture.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .stylish_text {
   color: white;
   padding-top: 54px;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer_background {
+  padding: 40px;
+  background: black;
+  width: 100%;
+}
+
+.footer_text {
+  color: white;
 }
